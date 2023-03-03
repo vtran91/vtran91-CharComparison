@@ -23,6 +23,6 @@ public class CharComparison {
             bStr += b[j];
         }
 
-        return aStr.compareTo(bStr) > 0? 1: aStr.compareTo(bStr); 
+        return aStr.compareTo(bStr) > 0? 1: aStr.compareTo(bStr); //goes above +1
     }
 }
